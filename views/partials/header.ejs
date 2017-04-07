@@ -1,0 +1,22 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        
+    <a class="navbar-brand" href="/home">Full-stack voting app</a>
+    <!--<ul class="nav nav-pills">-->
+      <!--<li role="presentation" class="active"><a href="/home">Home</a></li>-->
+      <a href="/home" class="navbar-link"><button type="button" class="btn btn-primary navbar-btn">Home</button></a>
+      <% if (displayname!='Guest') {%>
+      <a href="/profile" class="navbar-link"><button type="button" class="btn btn-primary navbar-btn">Profile</button></a>
+      <a href="/logout" class="navbar-link"><button type="button" class="btn btn-primary navbar-btn">Logout</button></a>
+      <% } else { %>
+       <a href="/auth/facebook">
+        <button type="button" class="btn btn-primary" id="login-btn">
+          <img src="/views/white-facebook-icon-png-like-us-on-facebook-to-stay-up-31.png" alt="fb logo" height="28" width="28" />
+          <p>Login with Facebook</p>
+        </button>
+      </a>
+      <% } %>
+      <p class="navbar-text navbar-right" id="login-name">Welcome, <%= displayname %></p>
+    <!--</ul>-->
+    </div>
+</nav>

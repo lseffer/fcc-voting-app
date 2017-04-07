@@ -1,0 +1,76 @@
+
+body {
+    font: 15px Arial;
+}
+
+.navbar-right {
+    margin-right: 15px;
+}
+
+.login {
+	margin: 86px auto 0 auto;
+	text-align: center;
+}
+
+#login-btn {
+	width: 180px;
+	height: 34px;
+	padding: 0px 0px;
+}
+
+#login-btn p {
+    color: #ffffff;
+    /*font-size: small;*/
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	/*vertical-align: center*/
+	padding: 7px;
+	/*max-width: 100%;*/
+}
+
+#login-btn > img {
+	float: left;
+	margin-left: 7px
+}
+
+#wrapper{
+    width:1080px;
+    margin: 0 auto; 
+    border-radius: 6px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+footer {
+    position: absolute;
+    padding-left: 15px;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+    color:#aeaeae;
+}
+
+
+#loginbutton {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #263961; 
+	}
+#loginbutton:link, #loginbutton:visited {
+	  color: #fff;
+	}
+#loginbutton:active #loginbutton:hover {
+	  background: #263961;
+	  color: #fff;
+	}
